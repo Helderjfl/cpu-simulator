@@ -20,10 +20,10 @@ body {
 	right: 10px;
 	width: 30%;
 	/* overflow-y: scroll; */
-	border: 2px solid #000;
-	border-radius: 10px;
+	border: 3px solid #000;
+	border-radius: 0px;
 	margin: 10px;
-	padding: 0px;
+	padding: 10px 0px;
 	background-color: rgb(141, 167, 167);
 	font-size: 1.2rem;
 }
@@ -33,10 +33,10 @@ body {
 .decode_unit {
 	position: absolute;
 	top: 20%;
-	background-color: #FFC;
-	border: 2px solid #000;
-	padding: 10px;
-	overflow-y: scroll;
+	background-color: rgb(160, 177, 192);
+	border: 3px solid #000;
+	padding: 10px 0px;
+	/* overflow-y: scroll; */
 	bottom: 0px;
 	max-width: 50%;
 }
@@ -57,16 +57,16 @@ body {
 	padding: 10px;
 	margin: 10px;
 	width: 50%;
-	border: 2px solid #000;
-	border-radius: 10px;
-	background-color:#FCC;
+	border: 3px solid #000;
+	border-radius: 0px;
+	background-color:rgb(192, 159, 159);
 	bottom: 0px;
 }
 .value {
 	transition: all 0.5s;
 }
 .value:hover {
-	font-size: 2em;
+	font-size: 1.5rem;
 }
 
 .register {
