@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
-	font-family: 'VT323', monospace;
-	background-image: url('http://blog.withcode.uk/wp-content/uploads/2016/04/background.jpg');
+	/* font-family: 'VT323', monospace; */
+	font-family: 'Open Sans', sans-serif;
+	background-color: darkgrey;
 }
 
 .box {
 	padding: 10px;
 	background-color: #FFF;
 	border-radius: 10px;
-	box-shadow: 10px 10px rgba(0,0,0, 0.5);
+	/* box-shadow: 10px 10px rgba(0,0,0, 0.5); */
 	margin: 20px;
 }
 .ram {
@@ -16,12 +19,13 @@ body {
 	top: 0px;
 	right: 10px;
 	width: 30%;
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
 	border: 2px solid #000;
 	border-radius: 10px;
 	margin: 10px;
-	padding: 10px;
-	background-color: #CFF;
+	padding: 0px;
+	background-color: rgb(141, 167, 167);
+	font-size: 1.2rem;
 }
 .ram table {
 	background-color: #FFF;
