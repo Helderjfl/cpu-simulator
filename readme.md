@@ -1,14 +1,15 @@
-# HTML5 CPU Simulator (8 bit binary implementation of Little Man Computer)
+# HTML5 CPU Simulator (Implementação 8 bit do Little Man Computer)
 
 ![Von Neumann CPU Simulator for OCR A Level](https://tools.withcode.uk/cpu/thumb.jpg)
 
-## Summary
-This project is a simulation of the Little Man Computer CPU adapted to make it more suitable for OCR A Level students.
+## Resumo
+Esse projeto é uma simulação do processador Little Man Computer que implementa a arquitetura de Von Neumann. É uma simplificação para ser usado em aula de Arquitetura e Organização de Computadores. Foi desenvolvido originalmente por PEte Dring da Fulford School in York.
+Está versão modifica a original, traduzindo-a para o português e realizando algumas atualizações e adaptações na interface.
 
-## Try it
-You can see a live demo of this project here: [tools.withcode.uk/cpu](https://tools.withcode.uk/cpu)
+## Experimente
+Você pode executar essa aplicação no link https://helderjfl.github.io/cpu-simulator/
 
-## Features
+## Recursos
 This CPU simulation allows you to:
 - Step through each step of the fetch decode execute cycle
 - See which register is affected by each step with an explanation of what's happening
@@ -63,7 +64,7 @@ The instruction set has been kept the same as the Little Man Computer, but the i
 Because addresses can only be stored as a 4-bit nibble, the ram is limited to 16 locations. Each of these store 8 bit values.
 In order to be able to cope with negative numbers, integer values in memory are interpreted as signed 8 bit numbers encoded using twos complement.
 
-## Credits
+## Créditos
 The structure of the processor is based on the diagram in the excellent [Craig'n'Dave youtube videos](https://youtu.be/OTDTdTYld2g?t=22s)
 The code uses the following libraries:
 - [Bootstrap](http://getbootstrap.com/) for user interface. MIT license.
@@ -71,6 +72,3 @@ The code uses the following libraries:
 - [jQuery](https://jquery.com/) for DOM manipulation. MIT license.
 - [Raphael](http://dmitrybaranovskiy.github.io/raphael/) for drawing annotations. MIT license.
 - [ShareThis](https://www.sharethis.com/) for social share buttons. (c) 2017 ShareThis
-
-## See Also
-- [CPU Battle Tanks](https://github.com/pddring/cpu-battle-tank/wiki): Control a tank with a Little Man Computer CPU
