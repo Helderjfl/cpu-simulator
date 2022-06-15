@@ -34,18 +34,23 @@
 
 	<div class="box">
 		<h1><i class="fa fa-microchip"></i> CPU Simulator</h1>
-		<div>This tool is designed to simulate the registers and busses inside a Von Neumann CPU for students studying
-			for
-			an A Level Computer Science (OCR Exam board)</div>
-		<div>It's designed as a visual aid to step through each stage of the <a
+		<div>Essa ferramenta foi projetada para simular os registradores e barramentos de uma CPU de arquitetura Von Neumann.</div>
+		<div>Ele apresente auxílios visuais para cada etapa de cada estágio do 
+			 <a
 				href="https://student.craigndave.org/videos/ocr-alevel-slr01-fetch-decode-execute-cycle"
-				target="_blank">fetch-decode-execute cycle</a> so that you can see the purpose of each <a
+				target="_blank">ciclo de busca-decodifica-executa</a> para que você possa ver o objetivo de cada um dos <a
 				href="https://student.craigndave.org/videos/ocr-alevel-slr01-alu-cu-registers-and-buses"
-				target="_blank">register and bus within the CPU</a>. The structure of the CPU is designed to look
-			similar to the
-			one featured in the Craig'n'Dave videos which uses a binary version of the <a
-				href="https://en.wikipedia.org/wiki/Little_man_computer" target="_blank">LMC instruction set</a></div>
-
+				target="_blank">registradores e barramentos dentro da CPU</a>. A estrutura da CPU foi projetada para ser
+				similar ao apresentado nos vídeos do Dave Craig que usa a versão binária do <a
+				href="https://en.wikipedia.org/wiki/Little_man_computer" target="_blank">conjunto de instruções LMC</a>.</div>
+		Nessa arquitetura há os registradores:
+		<ul>
+			<li>PC (<i>Program Counter</i>) - contador de programa</li>
+			<li>MAR (<i>Memory Address Register</i>) - registrador de endereço de memória</li>
+			<li>ACC (<i>Accumulator</i>) - acumulador</li>
+			<li>MDR (<i>Memory Data Register</i>) - registrador de dados da memória</li>
+			<li>CIR (<i>Current Instruction Register</i>) - registrador de instrução atual</li>
+		</ul>
 	</div>
 
 	<div id="options" class="box">
@@ -70,7 +75,7 @@
 		</div>
 
 		<button type="button" class="btn btn-secondary" id="btn_examples" data-bs-toggle="modal"
-			data-bs-target="#modal_examples"><i class="fa fa-thumbs-up"></i> Examplos</button>
+			data-bs-target="#modal_examples"><i class="fa fa-thumbs-up"></i> Exemplos</button>
 
 		<button type="button" class="btn btn-secondary" id="btn_import_export" data-bs-toggle="modal"
 			data-bs-target="#modal_export"><i class="fa fa-save"></i> Importar / Exportar</button>

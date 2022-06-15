@@ -19,7 +19,7 @@ body {
 	top: 0px;
 	right: 10px;
 	width: 30%;
-	/* overflow-y: scroll; */
+	overflow-y: scroll;
 	border: 3px solid #000;
 	border-radius: 0px;
 	margin: 10px;
@@ -195,7 +195,7 @@ body {
 	color: #F00;
 }
 
-.fetch {
+.busca {
 	background-color: #F00;
 }
 
